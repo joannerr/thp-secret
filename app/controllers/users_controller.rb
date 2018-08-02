@@ -1,6 +1,5 @@
 class UsersController < ApplicationController
-
-	def index
+ def index
 		@user = User.new
 	end
 
@@ -14,5 +13,4 @@ class UsersController < ApplicationController
 	def show
 
 	end
-
 end
